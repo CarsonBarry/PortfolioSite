@@ -1,153 +1,81 @@
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-ul {
-  margin: 0;
-}
+/* -- Reset all CSS -- */
 
-p {
-  margin-top: 8px;
-}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
-  background-color: yellow;
-  color: white;
-  margin: 0;
-  height: 1000px;
-}
+/* -- Main Structures -- */
 
-.navBar .hidden {
-  height: 0px;
-}
+html {}
+body {}
+div {}
+p {}
+span {}
+a {}
+ul {}
+li {}
 
-.pageTitle {
-}
+.row {}
+.navbar {}
+.mainContainer {}
+.footer {}
 
-div.navbar {
-  margin: 0;
-  position: sticky;
-  top: 0;
-  padding: 0;
-  text-align: left;
-  height: 40px;
-  background-color: black;
-}
+/* -- Subdivisions -- */
 
-.navbar ul.navMain {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 11px;
-  height: 100%;
-}
+.full {}
+.threeQuarters {}
+.twoThirds {}
+.half {}
+.quarter {}
+.third {}
 
-.navbar ul li {
-  display: inline-block;
-}
+/* -- Positions -- */
 
-.navbar ul li.navbarLeft {
-}
+.hMiddle {}
+.vMiddle {}
+.left {}
+.right {}
+.top {}
+.bottom {}
 
-.navbar ul li.navbarRight {
-  float: right;
-}
+.stickyTop {}
+.topDrawer30 {}
+.topDrawer60 {}
+.topDrawer90 {}
+.topDrawer120 {}
 
-.navbar ul li.navbarCenter {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+.stickyBottom
+.bottomDrawer30 {}
+.bottomDrawer60 {}
+.bottomDrawer90 {}
+.bottomDrawer120 {}
 
-.navbar ul li ul {
-  padding: 0;
-}
+.stickyLeft {}
+.stickyRight {}
 
-.navbar ul li ul li {
-  display: inline-block;
-  margin: 0 5px 0 5px;
-}
+/* --  -- */
 
-a {
-  text-decoration: none;
-  color: white;
-}
 
-.mainContainer {
-  width: 100%;
-  height: 875px;
-  padding: 0;
-}
 
-.mainLeft {
-  clear: all;
-  float: left;
-  width: 33%;
-  height: 100%;
-  text-align: center;
-  background-color: darkgrey;
-  padding: 0;
-}
+/* --  -- */
 
-.mainRight {
-  float: left;
-  width: 67%;
-  height: 100%;
-  text-align: center;
-  background-color: lightgrey;
-  padding: 0;
-}
 
-.footer .hidden {
-  height: 0px;
-}
 
-.footer {
-  margin: 0;
-  padding-top: 1px;
-  position: sticky;
-  bottom: -70px;
-  height: 99px;
-  width: 100%;
-  background-color: blue;
-}
+/* --  -- */
 
-.footerLeft {
-  margin-left: 5%;
-  margin-right: 2.5%;
-  width: 41.25%;
-  float: left;
-  padding: 0;
-}
 
-.footerRight {
-  margin-left: 2.5%;
-  margin-right: 5%;
-  width: 41.25%;
-  float: right;
-  padding: 0;
-}
 
-.footerBottomCenter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: 0%;
-  padding: 0;
-}
+/* --  -- */
 
-.container {
-  margin-bottom: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
+
+/* --  -- */
+
+
+
 
