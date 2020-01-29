@@ -1,2 +1,0 @@
-# PortfolioSite
-Created with CodeSandbox
