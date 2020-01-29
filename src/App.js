@@ -4,7 +4,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      {/* NavBar Container */}
+      {/* NavBar Container test */}
       <div id="navBar">
         <div id="navBarLeft">{/* NavBar Left Content */}</div>
         <div id="navBarCenter">{/* NavBar Center Content */}</div>
