@@ -36,6 +36,7 @@
   }
   body {
     background: blue;
+    color: white;
   }
   div {}
   p {}
@@ -44,6 +45,7 @@
   li {}
   a {
     text-decoration: none;
+    color: inherit;
   }
 
   .row {
