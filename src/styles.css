@@ -38,25 +38,32 @@
     background: blue;
     color: white;
   }
-  div {}
+  div {
+    /* TEMP */
+    background: green;
+    border-width: 1px;
+    border-color: yellow;
+    /* MAIN */
+  }
   p {}
   span {}
   ul {}
   li {}
   a {
     text-decoration: none;
-    color: black;
+    color: inherit;
   }
 
   .row {
     width: 100%;
+    clear: all;
   }
   .navbar {
     sticky: top;
   }
   .navItem {
     display: inline-block;
-
+    margin-right: 5px;
   }
   .mainContainer {}
   .footer {}
@@ -94,7 +101,9 @@
   .hMiddle {}
   .vMiddle {}
   .left {}
-  .right {}
+  .right {
+    float: right;
+  }
   .top {}
   .bottom {}
 
