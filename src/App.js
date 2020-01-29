@@ -16,10 +16,10 @@
 {/* ======== Navbar ======================== */}
   {/* -------- Navbar Row Container -------- */}
 
-      <div class="row, navbar, stickyTop">
+      <div class="row navbar stickyTop">
 
   {/* -------- Navbar Left Side ------------ */}
-        <div class="third, left">
+        <div class="third left">
 
         {/* ---------------- Links --------- */}
           <ul class="navItem">
@@ -49,14 +49,14 @@
         </div>
 
   {/* -------- Navbar Right Side ----------- */}
-        <div class="third, right">
+        <div class="third right">
 
           <a href="#">Right</a>
 
         </div>
 
   {/* -------- Navbar Center --------------- */}
-        <div class="third, hMiddle">
+        <div class="third hMiddle">
 
           <p>Page Title</p>
 
@@ -70,8 +70,8 @@
       <div class="row, mainContainer">
 
   {/* -------- Splash "Page" --------------- */}
-        <div class="full, splash" id="splash">
-          <div class="full, hMiddle, vMiddle">
+        <div class="full splash" id="splash">
+          <div class="full hMiddle vMiddle">
         {/* -------- Splash Content -------- */}        
             <span>Splash Text</span>
             <a href="#">Splash Link</a>
@@ -97,7 +97,7 @@
         <div class="row">
 
           {/* -------- Footer Left --------- */}
-                <div class="half, left">
+                <div class="half left">
 
                 {/* -------- Links --------- */}
                   <ul class="">
@@ -127,7 +127,7 @@
                 </div>
 
           {/* -------- Footer Right -------- */}
-                <div class="half, right">
+                <div class="half right">
 
                 {/* -------- Links --------- */}
                   <ul class="">
@@ -162,7 +162,7 @@
         <div class="row">
 
           {/* -------- Footer Center -------- */}
-                <div class="full, hMiddle">
+                <div class="full hMiddle">
 
                   <span>Copyright Information</span>
 
