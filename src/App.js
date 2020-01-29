@@ -51,12 +51,14 @@
   {/* -------- Navbar Right Side ----------- */}
         <div class="third, right">
 
+          <a href="#">Right</a>
 
         </div>
 
   {/* -------- Navbar Center --------------- */}
         <div class="third, hMiddle">
 
+          <p>Page Title</p>
 
         </div>
       </div>
@@ -68,13 +70,17 @@
       <div class="row, mainContainer">
 
   {/* -------- Splash "Page" --------------- */}
-        <div class="full, splash">
+        <div class="full, splash" id="splash">
+          <div class="full, hMiddle, vMiddle">
+        {/* -------- Splash Content -------- */}        
+            <span>Splash Text</span>
+            <a href="#">Splash Link</a>
 
-
+          </div>
         </div>
 
   {/* -------- Main Navigation ------------- */}
-        <div class = "row">
+        <div class= "row, hidden" id="mainNavigation">
 
 
         </div>
@@ -93,13 +99,61 @@
           {/* -------- Footer Left --------- */}
                 <div class="half, left">
 
+                {/* -------- Links --------- */}
+                  <ul class="">
 
+                  {/* -------- Item 1 ------ */}
+                    <li class=""> 
+
+                      <a href="#">FooterLeft</a>
+
+                    </li>
+
+                  {/* -------- Item 2 ------ */}
+                    <li class="">
+
+                      <a href="#">Two</a>    
+
+                    </li>
+
+                  {/* -------- Item 3 ------ */}
+                    <li class="">
+
+                      <a href="#">Three</a>
+
+                    </li>
+                  </ul>
+                {/* .............. Links End */}
                 </div>
 
           {/* -------- Footer Right -------- */}
-                <div class="half, left">
+                <div class="half, right">
 
+                {/* -------- Links --------- */}
+                  <ul class="">
 
+                  {/* -------- Item 1 ------ */}
+                    <li class=""> 
+
+                      <a href="#">FooterRight</a>
+
+                    </li>
+
+                  {/* -------- Item 2 ------ */}
+                    <li class="">
+
+                      <a href="#">Two</a>    
+
+                    </li>
+
+                  {/* -------- Item 3 ------ */}
+                    <li class="">
+
+                      <a href="#">Three</a>
+
+                    </li>
+                  </ul>
+                {/* .............. Links End */}
                 </div>
 
         </div>{/* ........... Footer Top End */}
@@ -110,6 +164,7 @@
           {/* -------- Footer Center -------- */}
                 <div class="full, hMiddle">
 
+                  <span>Copyright Information</span>
 
                 </div>
 
