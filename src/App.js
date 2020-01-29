@@ -1,178 +1,146 @@
+{
+  /* NoteTemplate */
+}
+{
+  /* ========  ======== */
+}
+{
+  /* --------  -------- */
+}
+{
+  /* ........  ........ */
+}
 
-{/* NoteTemplate */}
-{/* ========  ======== */}
-{/* --------  -------- */}
-{/* ........  ........ */}
- 
+{
+  /* Doc Header */
+}
+import React from "react";
+import "./styles.css";
 
-{/* Doc Header */}
- import React from "react";
- import "./styles.css";
-
- export default function App() {
-   return (
-     <div className="App">
-     
-{/* ======== Navbar ======================== */}
-  {/* -------- Navbar Row Container -------- */}
+export default function App() {
+  return (
+    <div className="App">
+      {/* ======== Navbar ======================== */}
+      {/* -------- Navbar Row Container -------- */}
 
       <div class="row navbar stickyTop">
-
-  {/* -------- Navbar Left Side ------------ */}
-        <div class="third left">
-
-        {/* ---------------- Links --------- */}
+        {/* -------- Navbar Left Side ------------ */}
+        <div class="third left vMiddle">
+          {/* ---------------- Links --------- */}
           <ul class="navItem">
-
-          {/* ---------------- Item 1 ------ */}
-            <li class="navItem"> 
-
+            {/* ---------------- Item 1 ------ */}
+            <li class="navItem">
               <a href="#">Left</a>
-
             </li>
 
-          {/* ---------------- Item 2 ------ */}
+            {/* ---------------- Item 2 ------ */}
             <li class="navItem">
-
-              <a href="#">Two</a>    
-
+              <a href="#">Two</a>
             </li>
 
-          {/* ---------------- Item 3 ------ */}
+            {/* ---------------- Item 3 ------ */}
             <li class="navItem">
-
               <a href="#">Three</a>
-
             </li>
           </ul>
-        {/* ...................... Links End */}
+          {/* ...................... Links End */}
         </div>
 
-  {/* -------- Navbar Right Side ----------- */}
-        <div class="third right">
-
+        {/* -------- Navbar Right Side ----------- */}
+        <div class="third right vMiddle">
           <a href="#">Right</a>
-
         </div>
 
-  {/* -------- Navbar Center --------------- */}
-        <div class="third hMiddle">
-
+        {/* -------- Navbar Center --------------- */}
+        <div class="third hMiddle vMiddle">
           <p>Page Title</p>
-
         </div>
       </div>
-  {/* ........................... Navbar End */}
+      {/* ........................... Navbar End */}
 
-{/* ======== Main Container ================ */}
-  {/* -------- Main Cont. Row Container ---- */}
+      {/* ======== Main Container ================ */}
+      {/* -------- Main Cont. Row Container ---- */}
 
       <div class="row, mainContainer">
-
-  {/* -------- Splash "Page" --------------- */}
+        {/* -------- Splash "Page" --------------- */}
         <div class="full splash" id="splash">
           <div class="full hMiddle vMiddle">
-        {/* -------- Splash Content -------- */}        
+            {/* -------- Splash Content -------- */}
             <span>Splash Text</span>
+            <br />
             <a href="#">Splash Link</a>
-
           </div>
         </div>
 
-  {/* -------- Main Navigation ------------- */}
-        <div class= "row, hidden" id="mainNavigation">
-
-
-        </div>
-
+        {/* -------- Main Navigation ------------- */}
+        <div class="row, hidden" id="mainNavigation" />
       </div>
-  {/* ................... Main Container End */}
+      {/* ................... Main Container End */}
 
-{/* ======== Footer ======================== */}
-  {/* -------- Footer Row Container -------- */}
+      {/* ======== Footer ======================== */}
+      {/* -------- Footer Row Container -------- */}
 
-      <div class="row">
-
-  {/* -------- Footer Top ------------------ */}
+      <div class="footer stickyBottom">
+        {/* -------- Footer Top ------------------ */}
         <div class="row">
-
           {/* -------- Footer Left --------- */}
-                <div class="half left">
+          <div class="half left">
+            {/* -------- Links --------- */}
+            <ul class="">
+              {/* -------- Item 1 ------ */}
+              <li class="">
+                <a href="#">FooterLeft</a>
+              </li>
 
-                {/* -------- Links --------- */}
-                  <ul class="">
+              {/* -------- Item 2 ------ */}
+              <li class="">
+                <a href="#">Two</a>
+              </li>
 
-                  {/* -------- Item 1 ------ */}
-                    <li class=""> 
-
-                      <a href="#">FooterLeft</a>
-
-                    </li>
-
-                  {/* -------- Item 2 ------ */}
-                    <li class="">
-
-                      <a href="#">Two</a>    
-
-                    </li>
-
-                  {/* -------- Item 3 ------ */}
-                    <li class="">
-
-                      <a href="#">Three</a>
-
-                    </li>
-                  </ul>
-                {/* .............. Links End */}
-                </div>
+              {/* -------- Item 3 ------ */}
+              <li class="">
+                <a href="#">Three</a>
+              </li>
+            </ul>
+            {/* .............. Links End */}
+          </div>
 
           {/* -------- Footer Right -------- */}
-                <div class="half right">
+          <div class="half right">
+            {/* -------- Links --------- */}
+            <ul class="">
+              {/* -------- Item 1 ------ */}
+              <li class="">
+                <a href="#">FooterRight</a>
+              </li>
 
-                {/* -------- Links --------- */}
-                  <ul class="">
+              {/* -------- Item 2 ------ */}
+              <li class="">
+                <a href="#">Two</a>
+              </li>
 
-                  {/* -------- Item 1 ------ */}
-                    <li class=""> 
+              {/* -------- Item 3 ------ */}
+              <li class="">
+                <a href="#">Three</a>
+              </li>
+            </ul>
+            {/* .............. Links End */}
+          </div>
+        </div>
+        {/* ........... Footer Top End */}
 
-                      <a href="#">FooterRight</a>
-
-                    </li>
-
-                  {/* -------- Item 2 ------ */}
-                    <li class="">
-
-                      <a href="#">Two</a>    
-
-                    </li>
-
-                  {/* -------- Item 3 ------ */}
-                    <li class="">
-
-                      <a href="#">Three</a>
-
-                    </li>
-                  </ul>
-                {/* .............. Links End */}
-                </div>
-
-        </div>{/* ........... Footer Top End */}
-
-  {/* -------- Footer Bottom --------------- */}
-        <div class="row">
-
+        {/* -------- Footer Bottom --------------- */}
+        <div class="row bottom">
           {/* -------- Footer Center -------- */}
-                <div class="full hMiddle">
-
-                  <span>Copyright Information</span>
-
-                </div>
-
-        </div>{/* ........... Footer Top End */}
+          <div class="full hMiddle">
+            <span>Copyright Information</span>
+          </div>
+        </div>
+        {/* ........... Footer Bottom End */}
       </div>
-  {/* ........................... Footer End */}
+      {/* ........................... Footer End */}
 
-{/* ................................ End App */}
+      {/* ................................ End App */}
     </div>
   );
 }
