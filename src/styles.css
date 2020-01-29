@@ -30,22 +30,31 @@
 
 /* -- Main Structures -- */
 
-  /*
-  html {}
-  body {}
+  
+  html {
+    background: black;
+  }
+  body {
+    background: blue;
+  }
   div {}
   p {}
   span {}
-  a {}
   ul {}
   li {}
-  */
+  a {
+    text-decoration: none;
+  }
 
   .row {
-    width= 100%;
+    width: 100%;
   }
   .navbar {
-    sticky= top;
+    sticky: top;
+  }
+  .navItem {
+    display: inline-block;
+
   }
   .mainContainer {}
   .footer {}
@@ -54,28 +63,28 @@
 /* -- Subdivisions -- */
 
   .full {
-    width= 100%;
+    width: 100%;
   }
   .threeQuarters {
-    width= 75%;
+    width: 75%;
   }
   .twoThirds {
-    width= 66.6%;
+    width: 66.6%;
   }
   .twoThirdsLast {
-    width= 66.7%;
+    width: 66.7%;
   }
   .half {
-    width= 50%;
+    width: 50%;
   }
   .quarter {
-    width= 25%;
+    width: 25%;
   }
   .third {
-    width= 33.3%;
+    width: 33.3%;
   }
   .thirdLast {
-    width= 33.4%;
+    width: 33.4%;
   }
 
 /* -- Positions -- */

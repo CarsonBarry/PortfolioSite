@@ -21,7 +21,31 @@
   {/* -------- Navbar Left Side ------------ */}
         <div class="third, left">
 
+        {/* ---------------- Links --------- */}
+          <ul class="navItem">
 
+          {/* ---------------- Item 1 ------ */}
+            <li class="navItem"> 
+
+              <a href="#">Left</a>
+
+            </li>
+
+          {/* ---------------- Item 2 ------ */}
+            <li class="navItem">
+
+              <a href="#">Two</a>    
+
+            </li>
+
+          {/* ---------------- Item 3 ------ */}
+            <li class="navItem">
+
+              <a href="#">Three</a>
+
+            </li>
+          </ul>
+        {/* ...................... Links End */}
         </div>
 
   {/* -------- Navbar Right Side ----------- */}
@@ -54,7 +78,7 @@
 
 
         </div>
-        
+
       </div>
   {/* ................... Main Container End */}
 
@@ -64,16 +88,16 @@
       <div class="row">
 
   {/* -------- Footer Top ------------------ */}
-        <div>
+        <div class="row">
 
           {/* -------- Footer Left --------- */}
-                <div>
+                <div class="half, left">
 
 
                 </div>
 
           {/* -------- Footer Right -------- */}
-                <div>
+                <div class="half, left">
 
 
                 </div>
@@ -81,12 +105,17 @@
         </div>{/* ........... Footer Top End */}
 
   {/* -------- Footer Bottom --------------- */}
-        <div>
+        <div class="row">
+
+          {/* -------- Footer Center -------- */}
+                <div class="full, hMiddle">
 
 
-        </div>
+                </div>
+
+        </div>{/* ........... Footer Top End */}
       </div>
-  {/* ........................... Navbar End */}
+  {/* ........................... Footer End */}
 
 {/* ................................ End App */}
     </div>
