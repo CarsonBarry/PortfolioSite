@@ -35,7 +35,9 @@
     background: black;
   }
   body {
-    background: blue;
+    /* TEMP */
+    background: pink;
+    /* MAIN */
     color: white;
   }
   div {
@@ -62,6 +64,11 @@
     sticky: top;
   }
   .navItem {
+    /* TEMP */
+    background: blue;
+    border-width: 1px;
+    border-color: yellow;
+    /* MAIN */
     display: inline-block;
     margin-right: 5px;
   }
