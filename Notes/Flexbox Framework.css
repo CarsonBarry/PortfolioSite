@@ -4,30 +4,31 @@
 
 /* | Defaults ---------------------------------------- | */
 
-	/* | - Containers -------------------------------- | */
+/* | - Containers ------------------------------------ | */
 	
-		[class*="flex"] {		{
-			display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-			display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-			display: -ms-flexbox;      /* TWEENER */
-			display: -webkit-flex;     /* NEW - Chrome */
-			display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-			}
-			
-		/* 
-		|	Default Property Values:
-		|	flex-flow: row nowrap;
-		|	justify-content: flex-start;
-		|	align-content:	stretch;
-		|	align-items: stretch;
-		*/
-
-	/* | - Items ------------------------------------- | */
-
-		.fitem {
-			flex: auto;
-			order: 0;
+	.flexR, .flexRR, .flexC, .flexCR, .flexR-W, .flexRR-W, .flexC-W, .flexCR-W, .flexR-WR, .flexRR-WR, .flexC-WR, .flexCR-WR 
+		{
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER */
+		display: -webkit-flex;     /* NEW - Chrome */
+		display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 		}
+		
+	/* 
+	|	Default Property Values:
+	|	flex-flow: row nowrap;
+	|	justify-content: flex-start;
+	|	align-content:	stretch;
+	|	align-items: stretch;
+	*/
+
+/* | - Items ----------------------------------------- | */
+
+	.flexi {
+		flex: auto;
+		order: 0;
+	}
 
 /* | Flex-Flow Variants for Containers --------------- | */
 
@@ -74,104 +75,136 @@
 /* | Alignment/Justification Variants for Containers - | */
 
 	/*| (Default) ----------- |*/
-		.flex {
+		.flexi {
 			justify-content: flex-start;
 			align-content: stretch;
 			align-items: stretch;
 		}
 
 	/*| Justify Content - Flex Start (Default) ----------- |*/
-		[class*="flex"][class*="-j"] {
+		[class*="flexi"][class*="-j"] {
 			justify-content: flex-start;
 		}
 
 	/*| Justify Content - Flex End ----------------------- |*/
-		[class*="flex"][class*="-jE"] {
+		[class*="flexi"][class*="-jE"] {
 			justify-content: flex-end;
 		}
 
 	/*| Justify Content - Center ------------------------- |*/
-		[class*="flex"][class*="-jC"] {
+		[class*="flexi"][class*="-jC"] {
 			justify-content: center;
 		}
 
 	/*| Justify Content - Space Between ------------------ |*/
-		[class*="flex"][class*="-jSB"] {
+		[class*="flexi"][class*="-jSB"] {
 			justify-content: space-between;
 		}
 
 	/*| Justify Content - Space Around ------------------- |*/
-		[class*="flex"][class*="-jSA"] {
+		[class*="flexi"][class*="-jSA"] {
 			justify-content: space-around;
 		}
 
 	/*| Justify Content - Space Evenly ------------------- |*/
-		[class*="flex"][class*="-jSE"] {
+		[class*="flexi"][class*="-jSE"] {
 			justify-content: space-evenly;
 		}
 
 	/*| Align Content - Stretch (Default) ---------------- |*/
-		[class*="flex"][class*="-ac"] {
+		[class*="flexi"][class*="-ac"] {
 			align-content: stretch;
 		}
 
 	/*| Align Content - Flex Start ----------------------- |*/
-		[class*="flex"][class*="-acS"] {
+		[class*="flexi"][class*="-acS"] {
 			align-content: flex-start;
 		}
 
 	/*| Align Content - Flex End ------------------------- |*/
-		[class*="flex"][class*="-acE"] {
+		[class*="flexi"][class*="-acE"] {
 			align-content: flex-end;
 		}
 
 	/*| Align Content - Center --------------------------- |*/
-		[class*="flex"][class*="-acC"] {
+		[class*="flexi"][class*="-acC"] {
 			align-content: center;
 		}
 
 	/*| Align Content - Space Between -------------------- |*/
-		[class*="flex"][class*="-acSB"] {
+		[class*="flexi"][class*="-acSB"] {
 			align-content: space-between;
 		}
 
 	/*| Align Content - Space Evenly --------------------- |*/
-		[class*="flex"][class*="-acSE"] {
+		[class*="flexi"][class*="-acSE"] {
 			align-content: space-evenly;
 		}
 
 	/*| Align Items - Stretch (Default) ------------------ |*/
-		[class*="flex"][class*="-ai"] {
+		[class*="flexi"][class*="-ai"] {
 			align-items: stretch;
 		}
 
 	/*| Align Items - Flex Start ------------------------- |*/
-		[class*="flex"][class*="-aiS"] {
+		[class*="flexi"][class*="-aiS"] {
 			align-items: flex-start;
 		}
 
 	/*| Align Items - Flex End --------------------------- |*/
-		[class*="flex"][class*="-aiE"] {
+		[class*="flexi"][class*="-aiE"] {
 			align-items: flex-end;
 		}
 
 	/*| Align Items - Center ----------------------------- |*/
-		[class*="flex"][class*="-aiC"] {
+		[class*="flexi"][class*="-aiC"] {
 			align-items: center;
 		}
 
 	/*| Align Items - Baseline --------------------------- |*/
-		[class*="flex"][class*="-aiB"] {
+		[class*="flexi"][class*="-aiB"] {
 			align-items: baseline;
 		}
 
-/* | Alignment Variants for Items -------------------- | */
-	
-	/*empty*/
 
-/* | Grow/Shrink/Basis Variants for Items ------------ | */
 
-	/*empty*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
